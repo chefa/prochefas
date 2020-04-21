@@ -1061,4 +1061,136 @@ p {
     text-transform: uppercase;
 }
 
+.touch-footer-wrap {
+    background: url(../image/touch/background.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
 
+.section__touch {
+}
+.touch {
+    margin-top: 4%;
+    
+}
+.touch__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.touch__item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.touch__item input{
+    text-align: center;
+    width: 31.0%;
+    padding: 15px 8%;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.touch__item:nth-child(1) input:first-child {
+    margin-right: 3%;
+}
+.touch__item:nth-child(2) input:first-child {
+    margin-right: 3%;
+}
+
+
+.touch__item textarea{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    width: 65%;
+    padding: 8% 27%;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+}
+.touch__btn {
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color: #fc5f45;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-bottom: 6%;
+}
+.container {
+}
+.footer__row {
+    background-color: rgba(38, 39, 50, 0.85);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer__item {
+    flex: 0 0 25%;
+    padding: 5% 5% 5% 2%;
+    
+}
+
+.footer__item-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__item-img img {
+    object-fit: contain;
+}
+
+.footer__title {
+    color: #38c695;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15%;
+}
+.footer__text {
+    color: #fef4f2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.footer__icons img{
+    margin-right: 15px;
+}
+
+.footer__item:nth-child(2) .footer__title {
+    color: #38c695;
+}
+.footer__item:nth-child(3) .footer__title {
+    color: #b27cf5;
+}
+.footer__item:nth-child(4) .footer__title {
+    color: #feb960;
+}
+
+.footer__item:nth-child(1) {
+    border-bottom: 3px solid #fc5f45;
+    
+}
+.footer__item:nth-child(2) {
+    border-bottom: 3px solid #38c695;
+
+}
+.footer__item:nth-child(3) {
+    border-bottom: 3px solid #b27cf5;
+
+}
+.footer__item:nth-child(4) {
+    border-bottom: 3px solid #feb960;
+
+}
