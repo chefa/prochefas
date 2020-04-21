@@ -426,19 +426,16 @@ p {
     line-height: 27px;
     border-right: 2px solid #efefef;
 }
-
 .team-about__icon {
     position: absolute;
     right: 1%;
     top:50%;
     transform: translateY(-50%);
 }
-
 .team-about__icon img{
     object-fit: contain;
    
 }
-
 
 .team-about__social {
     display: flex;
@@ -457,12 +454,10 @@ p {
     position: relative;
     
 }
-
 .stat__wrap {
     background: url(../image/stat/background.jpg) center no-repeat;
     background-size: cover;
 }
-
 .stat {
     padding: 10% 0;
     display: flex;
@@ -480,7 +475,6 @@ p {
 .stat__img {
     
 }
-
 .stat__item:nth-child(3) .stat__img {
     position: relative;
     right: 1%;
@@ -1050,7 +1044,6 @@ p {
 .blog__subscribe-email {
     padding: 12px 20px;
     color: #616161;
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     border: 2px solid #efefef;
@@ -1067,3 +1060,5 @@ p {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+
